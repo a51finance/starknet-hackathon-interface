@@ -1,7 +1,6 @@
 <template>
   <div class="l0k-swap-app-logo" @click="onLogoClick">
-    <img class="logo" src="./logo.png" />
-    <img class="alpha" src="./alpha.png" />
+    <img class="logo" src="./logo.svg" />
   </div>
 </template>
 
@@ -11,7 +10,7 @@ import { defineComponent } from 'vue'
 export default defineComponent({
   setup() {
     const onLogoClick = () => {
-      window.location.href = 'https://10kx.com'
+      window.location.href = 'https://a51.finance'
     }
 
     return { onLogoClick }
