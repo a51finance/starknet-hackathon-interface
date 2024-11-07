@@ -52,8 +52,8 @@ export default {
     max: 'Max',
   },
   nav: {
-    swap: 'Swap',
-    pool: 'Pool',
+    swap: 'Positions',
+    pool: 'Pools',
     faucet: 'Faucet',
     analytics: 'Analytics',
     rewards: 'Rewards',
